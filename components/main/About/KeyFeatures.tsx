@@ -14,7 +14,7 @@ const FeatureBlock: React.FC<FeatureBlockProps> = ({ title, content }) => (
 
 const KeyFeatures: React.FC = () => {
   return (
-    <div className='text-gray-800 dark:text-gray-300 bg-white dark:bg-gray-950 flex flex-col sm:my-1 mx-[60px] rounded-lg p-8 shadow-md'>
+    <div className='text-gray-800 dark:text-gray-300 bg-white dark:bg-gray-950 flex flex-col sm:my-1 mx-auto rounded-lg p-8 shadow-md'>
       <section className='mb-12'>
         <h2 className='text-4xl font-bold mb-6 text-teal-500 dark:text-teal-300 transition-colors duration-300 hover:text-teal-900'>Overview</h2>
         <h3 className='text-2xl font-semibold mb-4 text-teal-200 dark:text-teal-100'>What is Squig?</h3>

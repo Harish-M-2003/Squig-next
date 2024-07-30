@@ -9,7 +9,7 @@ export function Introduction() {
   const { theme } = useTheme();
 
   return (
-    <div className={`p-8 bg-${theme === "light" ? "white" : "gray-950"} dark:bg-${theme === "light" ? "gray-950" : "gray-950"} rounded-lg shadow-md ml-8 mr-8`}>
+    <div className={`p-8 bg-${theme === "light" ? "white" : "gray-950"} dark:bg-${theme === "light" ? "gray-950" : "gray-950"} rounded-lg shadow-md mx-auto`}>
       <h2 className={`text-2xl font-bold mb-4 text-${theme === "light" ? "blue-600" : "blue-400"} dark:text-${theme === "light" ? "blue-400" : "blue-600"}`}>Introduction</h2>
       <div className={`text-lg text-${theme === "light" ? "gray-700" : "gray-300"} dark:text-${theme === "light" ? "gray-300" : "gray-700"}`}>
         <TextGenerateEffect words={words} />

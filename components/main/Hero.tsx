@@ -11,7 +11,7 @@ export function Hero() {
   ];
 
   return (
-    <div className="h-[40rem] flex flex-col md:flex-row justify-center items-center px-4 space-y-4 md:space-y-0 md:space-x-8">
+    <div className="m-[40px] sm:m-auto md:m-auto lg:m-auto h-[40rem] flex flex-col md:flex-row justify-center items-center px-4 space-y-4 md:space-y-0 md:space-x-8">
       <div className="text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
         Explore
         <FlipWords words={words} /> <br />

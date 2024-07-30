@@ -20,7 +20,7 @@ const EvolutionSection = () => {
 
   return (
     <section id="evolution" className="py-12 bg-gray-100 dark:bg-gray-900">
-      <div className="container mx-auto px-4">
+      <div className="mx-auto px-4">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-4">
             Evolution of Squig

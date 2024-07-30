@@ -6,19 +6,19 @@ export function DownloadSection() {
   const words = [
     {
       text: "Download",
-      className:"text-xl sm:text-[50px]",
+      className:"text-xl sm:text-[40px]",
     },
     {
       text: "the latest",
-      className:"text-xl sm:text-[50px]",
+      className:"text-xl sm:text-[40px]",
     },
     {
       text: "version",
-      className:"text-xl sm:text-[50px]",
+      className:"text-xl sm:text-[40px]",
     },
     {
       text: "of Squig",
-      className:"text-xl sm:text-[50px]",
+      className:"text-xl sm:text-[40px]",
     },
     {
       text: "now",
@@ -28,7 +28,7 @@ export function DownloadSection() {
 
   return (
     <div className="flex flex-col items-center justify-center h-[20rem]">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xl sm:text-[50px]">
+      <p className="text-neutral-600 dark:text-neutral-200 text-xl sm:text-[50px] m-4">
         Explore the simplicity and efficiency of Squig
       </p>
       <TypewriterEffectSmooth words={words} />

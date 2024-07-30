@@ -15,6 +15,7 @@ import { Mode } from "@/components/Mode";
 import { useTheme } from "next-themes";
 import { Contributors } from "@/components/main/Contributors";
 import { HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
+import Learn from "@/components/main/learn";
 
 export default function Home() {
   const { theme } = useTheme();
@@ -41,9 +42,6 @@ export default function Home() {
           <Hero />
         </div>
       </div>
-      <div>
-        <Link href={"/index.html"}><p>Test</p></Link>
-      </div>
       <section id="introduction">
         <Introduction />
       </section>
@@ -55,6 +53,9 @@ export default function Home() {
       </section>
       <section id="evolution">
         <EvolutionSection />
+      </section>
+      <section>
+        <Learn/>
       </section>
       <section id="download">
         <DownloadSection />
